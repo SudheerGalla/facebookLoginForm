@@ -1,0 +1,270 @@
+html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+body{
+    background-color: #EAECF4;
+}
+*{
+    padding: 0;
+    margin: 0;
+    overflow: none;
+}
+body{
+    
+}
+.fb-outline{
+    padding: 0;
+    margin: 0;
+    height: 85px;
+    width: 100%;
+    position: relative;
+    background-color: #3B5998;
+    
+}
+.header{
+    width: 100%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.img-logo img{
+    height: 70px;
+    width: 200px;
+    float: left;
+    margin-left: 250px;
+    margin-top: 2px;
+}
+.Login-txt{
+    padding: 0;
+    margin-top: 0;
+    float: right;
+    position: absolute;
+    right: 12%;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+}
+tr td input[type="submit"]{
+    background: none;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+tr,td{
+    padding: 4px;
+}
+a{
+    color: #83B4D8;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+}
+.main-nav{
+    padding: 0;
+    margin-top: 120px;
+    margin-left: 150px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    float: left;
+}
+.main-nav .image img{
+    height: 200px;
+    width: 600px;
+    margin-left: 120px;
+}
+h2{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 5px;
+    width: 450px;
+    word-spacing: -1px;
+    margin-left: 130px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.main-nav-right{
+    position: absolute;
+    right: 500px;
+    top: 0;
+    font-size: 18px;
+    word-spacing: -1px;
+    padding: 0 5px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.form{
+    position: absolute;
+    right: 400px;
+    top: 80px;
+    font-size: 18px;
+    word-spacing: -1px;
+    padding: 0 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.form .inp-1{
+    float: left;
+    padding: 5px;
+}
+.form .inp-2{
+    float: right;
+    padding: 5px;
+}
+.form .inp-1 input[type="text"]{
+    height: 30px;
+    width: 200px;
+    border: 1px solid lightblue;
+    border-radius: 5px;    
+
+}
+.form .inp-2 input[type="text"]{
+    height: 30px;
+    width: 200px;
+    border: 1px solid lightblue;
+    border-radius: 5px;  
+}
+.form .inp-3 input[type="text"]{
+    padding: 2px;
+    height: 30px;
+    width: 410px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    margin: 7px 3px; 
+}
+input[type="text"]::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    position: relative;
+    top: 2px;
+    left: 8px;
+}
+.birthday{
+    position: absolute;
+    right: 630px;
+    top: 240px;
+    font-size: 18px;
+    word-spacing: -1px;
+    padding: 0 5px;
+    font-family: Helvetica, Arial, sans-serif; 
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    text-emphasis: none;
+    font-size: 20px;
+
+}
+select{
+    border: 1px solid #bdc7d8;
+    padding: 4px;
+}
+.para{
+    position: absolute;
+    right: 470px;
+    width: 160px;
+    top: 257px;
+}
+.para a{
+    color: #3B5998;
+}
+.para a:hover{
+    text-decoration: underline;
+}
+.sex{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #1D2129;
+    position: absolute;
+    right: 660px;
+    top: 320px;
+}
+.sex .male{
+    padding: 0 5px;
+}
+.para1 p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 300px;
+    right: 530px;
+    top: 360px;
+    color: #777777;
+
+}
+.button input[type="submit"]{
+    height: 38px;
+    width: 205px;
+    background-color: #6CA958;
+    border: 1px solid #777777;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+}
+.button{
+    position: absolute;
+    right: 630px;
+    top: 440px;
+}
+.button input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #6ca950;
+}
+.para2 p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    right: 540px;
+    top: 520px;
+
+}
+.para2 p a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #365899;
+}
+.para2 p a:hover{
+    text-decoration: underline;
+}
+.footer{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    top: 650px;
+}
+.footer .paragraph1{
+    padding: 10px;
+    color: #0e385f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    word-spacing: 10px;
+}
+.footer .paragraph2{
+    padding: 15px;
+    color: #0e385f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    word-spacing: 20px;
+    width: 900px;
+    text-align: center;
+    margin-left: 350px;
+
+}
